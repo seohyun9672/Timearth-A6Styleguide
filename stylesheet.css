@@ -1,8 +1,9 @@
-body {
-  margin: 0;
-}
+body{
+    margin: 0;
+  }
 
 /* NAVBAR */
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -30,3 +31,36 @@ li a:hover {
 .navbar-active{
     float: right;
 }
+
+/* LOGO */
+.logo-description {
+    display: flex;
+}
+
+.logo-variation {
+    display: flex;
+}
+.logo-typography {
+    display: flex;
+}
+.logo-usage {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    padding: 1em;
+}
+.logo-usage-desc {
+    display: flex;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-cont {
+    width: 940px;
+}
+
