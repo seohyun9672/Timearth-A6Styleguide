@@ -33,34 +33,52 @@ li a:hover {
 }
 
 /* LOGO */
-.logo-description {
-    display: flex;
-}
 
-.logo-variation {
-    display: flex;
-}
-.logo-typography {
-    display: flex;
-}
-.logo-usage {
-    display: flex;
-    flex-direction: column;
-}
-img {
-    padding: 1em;
-}
-.logo-usage-desc {
-    display: flex;
-}
-.section {
+.section-logo {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
+.logo-description {
+    display: flex;
+}
+.logo-variation {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-colourpalette {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .section-cont {
     width: 940px;
 }
+.colour-cont {
+    display: flex;
+    flex-direction: column;
+}
+.colour-name {
+    font-weight: bold;
+}
 
+.logo-typography {
+    display: flex;
+}
+
+.logo-usage {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-usage-desc {
+    display: flex;
+}
+
+.section-cont colour {
+    display: flex;
+}
