@@ -88,25 +88,24 @@ li a:hover {
 }
 
 /* page 2 */
-
 .page2 {
     margin:12em;
 }
 .col-3 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:2em;
 }
 .col-2 {
     display:grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap:2em;
 }
 .col {
     background-color:peachpuff;
+    margin:1.5em;
 }
 .nunito {
     font-family: 'nunito sans', Arial, Helvetica, sans-serif;
+    font-weight:bold;
 }
 .nh1 {
     font-weight: bold;
