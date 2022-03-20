@@ -95,12 +95,10 @@ li a:hover {
 .col-3 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:2em;
 }
 .col-2 {
     display:grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap:2em;
 }
 .col {
     background-color:peachpuff;
