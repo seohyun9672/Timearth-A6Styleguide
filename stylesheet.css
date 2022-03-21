@@ -1,6 +1,6 @@
-body{
-    margin: 0;
-  }
+body {
+  margin: 0;
+}
 
 /* NAVBAR */
 
@@ -28,57 +28,44 @@ li a:hover {
   background-color: #111;
 }
 
-.navbar-active{
-    float: right;
+.navbar-active {
+  float: right;
 }
 
 /* LOGO */
-
 .section-logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section-cont {
+  width: 940px;
 }
 
-.logo-description {
-    display: flex;
+.desc-cont {
+  display: flex;
 }
-.logo-variation {
-    display: flex;
-    justify-content: space-evenly;
+
+.logo-colour {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .logo-colourpalette {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.section-cont {
-    width: 940px;
-}
 .colour-cont {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .colour-name {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.logo-typography {
-    display: flex;
-}
-
-.logo-usage {
-    display: flex;
-    flex-direction: column;
-}
-
-.logo-usage-desc {
-    display: flex;
-}
-
-.section-cont colour {
-    display: flex;
+.img-desc {
+  display: flex;
 }
