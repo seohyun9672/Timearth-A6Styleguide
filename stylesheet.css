@@ -74,6 +74,11 @@ li a:hover {
   display: flex;
 }
 
+.typography {
+    width: 40%;
+
+}
+
 /* page 2 */
 
 .page2 {
