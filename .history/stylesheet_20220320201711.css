@@ -90,7 +90,7 @@ li a:hover {
 /* page 2 */
 
 .page2 {
-    margin:0 12em;
+    margin:12em;
 }
 .col-3 {
     display:grid;
@@ -107,6 +107,9 @@ li a:hover {
     grid-template-columns: 2fr 1fr;
     grid-gap:2em;
 }
+.col {
+    background-color:peachpuff;
+}
 .nunito {
     font-family: 'nunito sans', Arial, Helvetica, sans-serif;
 }
@@ -115,6 +118,9 @@ li a:hover {
     font-size:32pt;
 }
 .nh2 {
+    font-size:22pt;
+}
+.nh2-2 {
     font-size:22pt;
     font-weight:bolder;
 }
@@ -130,20 +136,6 @@ li a:hover {
     font-size:20pt;
     font-weight:bolder;
 }
-.desc {
-    margin-top:0;
-    margin-bottom: 4em;
-    font-family: 'open sans', sans-serif;
-}
-.challenges {
-    width:100%;
-}
 .example {
-    padding-top: 3em;
-}
-.palette {
-    width:100%;
-}
-.n {
-    color: #0D3B66;
+    line-height:3em;
 }

@@ -90,7 +90,7 @@ li a:hover {
 /* page 2 */
 
 .page2 {
-    margin:0 12em;
+    margin:12em;
 }
 .col-3 {
     display:grid;
@@ -132,8 +132,6 @@ li a:hover {
 }
 .desc {
     margin-top:0;
-    margin-bottom: 4em;
-    font-family: 'open sans', sans-serif;
 }
 .challenges {
     width:100%;
@@ -143,7 +141,4 @@ li a:hover {
 }
 .palette {
     width:100%;
-}
-.n {
-    color: #0D3B66;
 }
