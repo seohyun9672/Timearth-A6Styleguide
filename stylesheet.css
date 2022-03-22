@@ -7,13 +7,25 @@ body{
   }
 
 /* NAVBAR */
+.logo {
+    height: 40px;
+    padding-left: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: block;
   overflow: hidden;
-  background-color: #333;
+  background-color: #6491E9;
 }
 
 li {
@@ -26,10 +38,11 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: 500;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #95b4f1;
 }
 
 .navbar-active {
