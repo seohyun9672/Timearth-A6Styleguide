@@ -138,59 +138,9 @@ li a:hover {
 .challenges {
     width:100%;
 }
-.example {
-    padding-top: 2em;
-}
 .palette {
     width:100%;
 }
 div img {
   width:100%;
-}
-
-/* page3 */
-.page3 {
-  margin: 0 12em;
-}
-p {
-  margin-left: 40px;
-}
-.Checkbox {
-  margin: 0 40px 0 40px
-}
-.Timeinput{
-  margin-right: 120px;
-}
-.img_cont{
-  display: flex;
-  flex-direction: row;
-}
-.section_cont{
-  margin: 0 40px;
-}
-.right{
-  display: flex;
-  flex-direction: column;
-}
-.timeresult{
-  margin-left: 40px;
-}
-.clickable{
-  margin: 25px 0 0 40px;
-}
-.desc_cont{
-  display: flex; 
-  flex-direction: row;
-}
-.blur_desc{
-  margin-left: 15px;
-}
-.colour_desc{
-  margin-left: 15px;
-}
-.edit{
-  margin: 0 40px;
-}
-.facebook{
-  margin-right: 40px;
 }
