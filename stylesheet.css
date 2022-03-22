@@ -4,7 +4,19 @@
 body{
     margin: 0;
     font-family: 'open sans', san-serif;
-  }
+}
+
+p {
+    font-size: 16pt;
+}
+
+section {
+    padding-bottom: 2em;
+}
+
+h1 {
+    font-size: 30pt;
+}
 
 /* NAVBAR */
 .logo {
@@ -50,46 +62,103 @@ li a:hover {
 }
 
 /* LOGO */
-.section-logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
 .section-cont {
-  width: 940px;
+    margin: 0 12em
 }
 
 .desc-cont {
-  display: flex;
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
 
-.logo-colour {
+.desc-cont2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-colours {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+.logo-colours > img {
+    width: 15%;
+    padding: 1em;
 }
 
 .logo-colourpalette {
   display: flex;
-  width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .colour-cont {
   display: flex;
-  flex-direction: column;
-}
+  align-items: center;
+  width: 100%;
+} 
+
 .colour-name {
   font-weight: bold;
+  padding-bottom: 3pt;
 }
 
-.img-desc {
-  display: flex;
+.colour-desc {
+    display: flex;
+    flex-direction: column;
 }
 
-.typography {
-    width: 40%;
+.colour-desc > span {
+    font-size: 14pt;
+    white-space: nowrap;
+}
 
+.colour {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 1em;
+    aspect-ratio: 1;
+}
+
+.orange {
+    background-color: #FF6C37;
+}
+
+.rajah {
+    background-color: #FFA44B;
+}
+
+.powderblue {
+    background-color: #AFE2E3;
+}
+
+.limegreen {
+    background-color: #69C746;
+}
+
+.desc-cont > img{
+    padding: 2em;
+    width: 80%;
+    height: 80%;
+}
+
+.logo-vertical {
+    width: 70%;
+    height: 70%;
+}
+
+.logo-horizontal {
+    width: 100%;
+    height: 100%;
 }
 
 /* page 2 */
@@ -165,9 +234,7 @@ div img {
 .page3 {
   margin: 0 12em;
 }
-p {
-  margin-left: 40px;
-}
+
 .Checkbox {
   margin: 0 40px 0 40px
 }
