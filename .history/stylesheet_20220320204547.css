@@ -1,0 +1,149 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'open sans', san-serif;
+  }
+
+/* NAVBAR */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.navbar-active{
+    float: right;
+}
+
+/* LOGO */
+
+.section-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-description {
+    display: flex;
+}
+.logo-variation {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-colourpalette {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section-cont {
+    width: 940px;
+}
+.colour-cont {
+    display: flex;
+    flex-direction: column;
+}
+.colour-name {
+    font-weight: bold;
+}
+
+.logo-typography {
+    display: flex;
+}
+
+.logo-usage {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-usage-desc {
+    display: flex;
+}
+
+.section-cont colour {
+    display: flex;
+}
+
+/* page 2 */
+
+.page2 {
+    margin:12em;
+}
+.col-3 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:2em;
+}
+.col-2 {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:2em;
+}
+.col-2-font {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:2em;
+}
+.nunito {
+    font-family: 'nunito sans', Arial, Helvetica, sans-serif;
+}
+.nh1 {
+    font-weight: bold;
+    font-size:32pt;
+}
+.nh2 {
+    font-size:22pt;
+}
+.nh2-2 {
+    font-size:22pt;
+    font-weight:bolder;
+}
+.nh3 {
+    font-size:17pt;
+    font-weight:bolder;
+}
+.nh4 {
+    font-size:16pt;
+    font-weight:bolder;
+}
+.nbtn {
+    font-size:20pt;
+    font-weight:bolder;
+}
+.desc {
+    margin-top:0;
+}
+.challenges {
+    width:100%;
+}
+.example {
+    padding-top: 3em;
+}
+.palette {
+    width:100%;
+    height:50%;
+    object-fit:cover;
+}
