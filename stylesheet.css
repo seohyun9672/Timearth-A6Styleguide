@@ -32,82 +32,118 @@ li a:hover {
   background-color: #111;
 }
 
-.navbar-active{
-    float: right;
+.navbar-active {
+  float: right;
 }
 
 /* LOGO */
-
 .section-logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section-cont {
+  width: 940px;
 }
 
-.logo-description {
-    display: flex;
+.desc-cont {
+  display: flex;
 }
-.logo-variation {
-    display: flex;
-    justify-content: space-evenly;
+
+.logo-colour {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .logo-colourpalette {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.section-cont {
-    width: 940px;
-}
 .colour-cont {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .colour-name {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.logo-typography {
-    display: flex;
+.img-desc {
+  display: flex;
 }
 
-.logo-usage {
-    display: flex;
-    flex-direction: column;
-}
+.typography {
+    width: 40%;
 
-.logo-usage-desc {
-    display: flex;
-}
-
-.section-cont colour {
-    display: flex;
 }
 
 /* page 2 */
 
 .page2 {
-    margin:12em;
+    margin:0 auto;
+    max-width:940px;
 }
+
 .col-3 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:2em;
+}
+.imgs {
+  align-items: end;
+}
+.col-special {
+  align-self: start;
 }
 .col-2 {
     display:grid;
     grid-template-columns: 1fr 2fr;
     grid-gap:2em;
 }
-.col {
-    background-color:peachpuff;
+.col-2-font {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:2em;
 }
 .nunito {
     font-family: 'nunito sans', Arial, Helvetica, sans-serif;
 }
 .nh1 {
     font-weight: bold;
+    font-size:32pt;
+}
+.nh2 {
+    font-size:22pt;
+    font-weight:bolder;
+}
+.nh3 {
+    font-size:17pt;
+    font-weight:bolder;
+}
+.nh4 {
+    font-size:16pt;
+    font-weight:bolder;
+}
+.nbtn {
+    font-size:20pt;
+    font-weight:bolder;
+}
+.desc {
+    margin-top:0;
+    margin-bottom: 4em;
+    font-family: 'open sans', sans-serif;
+}
+.challenges {
+    width:100%;
+}
+.example {
+    padding-top: 2em;
+}
+.palette {
+    width:100%;
+}
+div img {
+  width:100%;
 }
