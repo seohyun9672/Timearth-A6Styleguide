@@ -82,20 +82,16 @@ li a:hover {
 /* page 2 */
 
 .page2 {
-    margin:0 auto;
-    max-width:940px;
+    margin:0;
+    width:940px;
+    display:flex;
+    justify-content: center;
 }
 
 .col-3 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:2em;
-}
-.imgs {
-  align-items: end;
-}
-.col-special {
-  align-self: start;
 }
 .col-2 {
     display:grid;
@@ -139,11 +135,11 @@ li a:hover {
     width:100%;
 }
 .example {
-    padding-top: 2em;
+    padding-top: 3em;
 }
 .palette {
     width:100%;
 }
-div img {
-  width:100%;
+.n {
+    color: #0D3B66;
 }

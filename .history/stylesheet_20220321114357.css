@@ -139,10 +139,13 @@ li a:hover {
     width:100%;
 }
 .example {
-    padding-top: 2em;
+    padding-top: 3em;
 }
 .palette {
     width:100%;
+}
+.n {
+    color: #0D3B66;
 }
 div img {
   width:100%;
