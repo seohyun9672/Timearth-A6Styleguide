@@ -236,11 +236,14 @@ div img {
   margin: 0 12em;
 }
 
-.img_cont,
-.icon_cont {
+.img_cont, .icon_cont {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.timeresult, .clickable {
+    max-width: 50%;
 }
 
 .img_cont > img {
@@ -258,4 +261,13 @@ div img {
 .icon_cont > img {
   padding: 2em;
   height: 80px;
+}
+
+.dropshadow-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+..dropshadow-desc > span {
+    padding: 2em;
 }
