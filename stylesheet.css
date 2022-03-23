@@ -7,7 +7,7 @@ body{
 }
 
 p {
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 section {
@@ -69,6 +69,7 @@ li a:hover {
 .desc-cont {
   display: grid;
   grid-template-columns: 40% 60%;
+  place-items: center
 }
 
 .desc-cont2 {
@@ -151,7 +152,7 @@ li a:hover {
     height: 80%;
 }
 
-.logo-vertical {
+.logo-vertical, img.icon-size {
     width: 70%;
     height: 70%;
 }
@@ -214,7 +215,7 @@ li a:hover {
 }
 .desc {
     margin-top:0;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
     font-family: 'open sans', sans-serif;
 }
 .challenges {
