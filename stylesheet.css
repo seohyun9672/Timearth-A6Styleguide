@@ -236,7 +236,7 @@ div img {
   margin: 0 12em;
 }
 
-.img_cont, .icon_cont {
+.img_cont, .icon_cont{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -271,3 +271,22 @@ div img {
 .dropshadow-desc > span {
     padding: 2em;
 }
+
+.graphic_cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.happy, .sad{
+  padding: 2em;
+  max-width: 25%;
+  max-height: 25%;
+}
+
+.happy_palette, .sad_palette, .green_palette{
+  width: 50%;
+  height: 50%;
+}
+
